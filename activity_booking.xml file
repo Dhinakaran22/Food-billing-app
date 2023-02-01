@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Booking">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginBottom="55dp"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/biriyani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biriyani"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/CurdRice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curd Rice"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/sambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sambar Rice"
+            android:textSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/lemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lemon Rice"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:background="#FF5722"
+        android:layout_marginRight="152dp"
+        android:id="@+id/Book"
+        android:layout_marginBottom="253dp"
+        android:text="PLACE ORDER" />
+
+    <TextView
+        android:id="@+id/bill"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:layout_marginBottom="44dp"
+        android:textSize="30dp" />
+</RelativeLayout>
+
+ 
